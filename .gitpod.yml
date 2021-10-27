@@ -1,8 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
   - init: |
       python -m pip install --upgrade pip
     command: |
-      python manage.py runserver
+      python --version
   
 vscode:
   extensions:
