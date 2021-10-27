@@ -1,0 +1,9 @@
+tasks:
+  - init: |
+      python -m pip install --upgrade pip
+    command: |
+      python manage.py runserver
+  
+vscode:
+  extensions:
+    - ms-python.python
